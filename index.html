@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.2">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="HELLO WORLD...">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wangjian">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Wangjian">
+<meta property="og:description" content="HELLO WORLD...">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Wangjian">
+<meta name="twitter:description" content="HELLO WORLD...">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="http://yoursite.com/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Wangjian</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Wangjian</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/19/DockerCompose/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Wang">
+      <meta itemprop="description" content="HELLO WORLD...">
+      <meta itemprop="image" content="/uploads/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Wangjian">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/06/19/DockerCompose/" class="post-title-link" itemprop="url">Docker Compose 安装与卸载</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-06-19 18:22:36 / 修改时间：18:22:38" itemprop="dateCreated datePublished" datetime="2019-06-19T18:22:36+08:00">2019-06-19</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Docker/" itemprop="url" rel="index"><span itemprop="name">Docker</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="Docker-Compose-安装与卸载"><a href="#Docker-Compose-安装与卸载" class="headerlink" title="Docker Compose 安装与卸载"></a>Docker Compose 安装与卸载</h1><p><code>Compose</code> 支持 Linux、macOS、Windows 10 三大平台。</p>
+<p><code>Compose</code> 可以通过 Python 的包管理工具 <code>pip</code> 进行安装，也可以直接下载编译好的二进制文件使用，甚至能够直接在 Docker 容器中运行。</p>
+<p>前两种方式是传统方式，适合本地环境下安装使用；最后一种方式则不破坏系统环境，更适合云计算场景。</p>
+<p><code>Docker for Mac</code> 、<code>Docker for Windows</code> 自带 <code>docker-compose</code> 二进制文件，安装 Docker 之后可以直接使用。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ docker-compose --version</span><br><span class="line"></span><br><span class="line">docker-compose version 1.17.1, build 6d101fb</span><br></pre></td></tr></table></figure>
+
+<p>Linux 系统请使用以下介绍的方法安装。</p>
+<h2 id="二进制包"><a href="#二进制包" class="headerlink" title="二进制包"></a>二进制包</h2><p>在 Linux 上的也安装十分简单，从 <a href="https://github.com/docker/compose/releases" target="_blank" rel="noopener">官方 GitHub Release</a> 处直接下载编译好的二进制文件即可。</p>
+<p>例如，在 Linux 64 位系统上直接下载对应的二进制包。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo curl -L https://github.com/docker/compose/releases/download/1.17.1/docker-compose-`uname -s`-`uname -m` &gt; /usr/<span class="built_in">local</span>/bin/docker-compose</span><br><span class="line">$ sudo chmod +x /usr/<span class="built_in">local</span>/bin/docker-compose</span><br></pre></td></tr></table></figure>
+
+<h2 id="PIP-安装"><a href="#PIP-安装" class="headerlink" title="PIP 安装"></a>PIP 安装</h2><p><em>注：</em> <code>x86_64</code> 架构的 Linux 建议按照上边的方法下载二进制包进行安装，如果您计算机的架构是 <code>ARM</code>(例如，树莓派)，再使用 <code>pip</code> 安装。</p>
+<p>这种方式是将 Compose 当作一个 Python 应用来从 pip 源中安装。</p>
+<p>执行安装命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo pip install -U docker-compose</span><br></pre></td></tr></table></figure>
+
+<p>可以看到类似如下输出，说明安装成功。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Collecting docker-compose</span><br><span class="line">  Downloading docker-compose-1.17.1.tar.gz (149kB): 149kB downloaded</span><br><span class="line">...</span><br><span class="line">Successfully installed docker-compose cached-property requests texttable websocket-client docker-py dockerpty six enum34 backports.ssl-match-hostname ipaddress</span><br></pre></td></tr></table></figure>
+
+<h2 id="bash-补全命令"><a href="#bash-补全命令" class="headerlink" title="bash 补全命令"></a>bash 补全命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl -L https://raw.githubusercontent.com/docker/compose/1.8.0/contrib/completion/bash/docker-compose &gt; /etc/bash_completion.d/docker-compose</span><br></pre></td></tr></table></figure>
+
+<h2 id="容器中执行"><a href="#容器中执行" class="headerlink" title="容器中执行"></a>容器中执行</h2><p>Compose 既然是一个 Python 应用，自然也可以直接用容器来执行它。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ curl -L https://github.com/docker/compose/releases/download/1.8.0/run.sh &gt; /usr/<span class="built_in">local</span>/bin/docker-compose</span><br><span class="line">$ chmod +x /usr/<span class="built_in">local</span>/bin/docker-compose</span><br></pre></td></tr></table></figure>
+
+<p>实际上，查看下载的 <code>run.sh</code> 脚本内容，如下</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> -e</span><br><span class="line"></span><br><span class="line">VERSION=<span class="string">"1.8.0"</span></span><br><span class="line">IMAGE=<span class="string">"docker/compose:<span class="variable">$VERSION</span>"</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># Setup options for connecting to docker host</span></span><br><span class="line"><span class="keyword">if</span> [ -z <span class="string">"<span class="variable">$DOCKER_HOST</span>"</span> ]; <span class="keyword">then</span></span><br><span class="line">    DOCKER_HOST=<span class="string">"/var/run/docker.sock"</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ -S <span class="string">"<span class="variable">$DOCKER_HOST</span>"</span> ]; <span class="keyword">then</span></span><br><span class="line">    DOCKER_ADDR=<span class="string">"-v <span class="variable">$DOCKER_HOST</span>:<span class="variable">$DOCKER_HOST</span> -e DOCKER_HOST"</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    DOCKER_ADDR=<span class="string">"-e DOCKER_HOST -e DOCKER_TLS_VERIFY -e DOCKER_CERT_PATH"</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># Setup volume mounts for compose config and context</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$(pwd)</span>"</span> != <span class="string">'/'</span> ]; <span class="keyword">then</span></span><br><span class="line">    VOLUMES=<span class="string">"-v <span class="variable">$(pwd)</span>:<span class="variable">$(pwd)</span>"</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ -n <span class="string">"<span class="variable">$COMPOSE_FILE</span>"</span> ]; <span class="keyword">then</span></span><br><span class="line">    compose_dir=$(dirname <span class="variable">$COMPOSE_FILE</span>)</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="comment"># <span class="doctag">TODO:</span> also check --file argument</span></span><br><span class="line"><span class="keyword">if</span> [ -n <span class="string">"<span class="variable">$compose_dir</span>"</span> ]; <span class="keyword">then</span></span><br><span class="line">    VOLUMES=<span class="string">"<span class="variable">$VOLUMES</span> -v <span class="variable">$compose_dir</span>:<span class="variable">$compose_dir</span>"</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ -n <span class="string">"<span class="variable">$HOME</span>"</span> ]; <span class="keyword">then</span></span><br><span class="line">    VOLUMES=<span class="string">"<span class="variable">$VOLUMES</span> -v <span class="variable">$HOME</span>:<span class="variable">$HOME</span> -v <span class="variable">$HOME</span>:/root"</span> <span class="comment"># mount $HOME in /root to share docker.config</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Only allocate tty if we detect one</span></span><br><span class="line"><span class="keyword">if</span> [ -t 1 ]; <span class="keyword">then</span></span><br><span class="line">    DOCKER_RUN_OPTIONS=<span class="string">"-t"</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">if</span> [ -t 0 ]; <span class="keyword">then</span></span><br><span class="line">    DOCKER_RUN_OPTIONS=<span class="string">"<span class="variable">$DOCKER_RUN_OPTIONS</span> -i"</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">exec</span> docker run --rm <span class="variable">$DOCKER_RUN_OPTIONS</span> <span class="variable">$DOCKER_ADDR</span> <span class="variable">$COMPOSE_OPTIONS</span> <span class="variable">$VOLUMES</span> -w <span class="string">"<span class="variable">$(pwd)</span>"</span> <span class="variable">$IMAGE</span> <span class="string">"<span class="variable">$@</span>"</span></span><br></pre></td></tr></table></figure>
+
+<p>可以看到，它其实是下载了 <code>docker/compose</code> 镜像并运行。</p>
+<h2 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h2><p>如果是二进制包方式安装的，删除二进制文件即可。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo rm /usr/<span class="built_in">local</span>/bin/docker-compose</span><br></pre></td></tr></table></figure>
+
+<p>如果是通过 <code>pip</code> 安装的，则执行如下命令即可删除。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo pip uninstall docker-compose</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/19/docker-mysql/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Wang">
+      <meta itemprop="description" content="HELLO WORLD...">
+      <meta itemprop="image" content="/uploads/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Wangjian">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/06/19/docker-mysql/" class="post-title-link" itemprop="url">Docker Compose 实战 MySQL</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-06-19 17:42:18 / 修改时间：18:13:41" itemprop="dateCreated datePublished" datetime="2019-06-19T17:42:18+08:00">2019-06-19</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Docker/" itemprop="url" rel="index"><span itemprop="name">Docker</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="MySQL5"><a href="#MySQL5" class="headerlink" title="MySQL5"></a>MySQL5</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">version: &apos;3.1&apos;</span><br><span class="line">services:</span><br><span class="line">  mysql:</span><br><span class="line">    restart: always</span><br><span class="line">    image: mysql:5.7.22</span><br><span class="line">    container_name: mysql</span><br><span class="line">    ports:</span><br><span class="line">      - 3306:3306</span><br><span class="line">    environment:</span><br><span class="line">      TZ: Asia/Shanghai</span><br><span class="line">      MYSQL_ROOT_PASSWORD: 123456</span><br><span class="line">    command:</span><br><span class="line">      --character-set-server=utf8mb4</span><br><span class="line">      --collation-server=utf8mb4_general_ci</span><br><span class="line">      --explicit_defaults_for_timestamp=true</span><br><span class="line">      --lower_case_table_names=1</span><br><span class="line">      --max_allowed_packet=128M</span><br><span class="line">      --sql-mode=&quot;STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION,NO_ZERO_DATE,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO&quot;</span><br><span class="line">    volumes:</span><br><span class="line">      - mysql-data:/var/lib/mysql</span><br><span class="line"></span><br><span class="line">volumes:</span><br><span class="line">  mysql-data:</span><br></pre></td></tr></table></figure>
+
+<h1 id="MySQL8"><a href="#MySQL8" class="headerlink" title="MySQL8"></a>MySQL8</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">version: &apos;3.1&apos;</span><br><span class="line">services:</span><br><span class="line">  db:</span><br><span class="line">    image: mysql</span><br><span class="line">    restart: always</span><br><span class="line">    environment:</span><br><span class="line">      MYSQL_ROOT_PASSWORD: 123456</span><br><span class="line">    command:</span><br><span class="line">      --default-authentication-plugin=mysql_native_password</span><br><span class="line">      --character-set-server=utf8mb4</span><br><span class="line">      --collation-server=utf8mb4_general_ci</span><br><span class="line">      --explicit_defaults_for_timestamp=true</span><br><span class="line">      --lower_case_table_names=1</span><br><span class="line">    ports:</span><br><span class="line">      - 3306:3306</span><br><span class="line">    volumes:</span><br><span class="line">      - ./data:/var/lib/mysql</span><br><span class="line"></span><br><span class="line">  adminer:</span><br><span class="line">    image: adminer</span><br><span class="line">    restart: always</span><br><span class="line">    ports:</span><br><span class="line">      - 8080:8080</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/uploads/avatar.jpeg" alt="Wang">
+            
+              <p class="site-author-name" itemprop="name">Wang</p>
+              <div class="site-description motion-element" itemprop="description">HELLO WORLD...</div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Wang</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.2</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.2"></script>
+
+  <script src="/js/motion.js?v=7.1.2"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.1.2"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.1.2"></script>
+
+
+
+
+  
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.2"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
